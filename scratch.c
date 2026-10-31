@@ -3,7 +3,11 @@
 
 size_t ft_strlen(const char *s)
 {
-    // your code here
+	size_t i = 0;
+
+	while(s[i] != '\0')
+		i++;
+	return(i);
 }
 
 int main(void)
